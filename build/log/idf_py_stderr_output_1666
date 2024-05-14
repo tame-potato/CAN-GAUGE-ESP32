@@ -1,0 +1,11 @@
+CMake Error at /opt/esp/idf/components/mbedtls/mbedtls/CMakeLists.txt:145 (message):
+  Could not create symbolic link for:
+  /opt/esp/idf/components/mbedtls/mbedtls/library/error.c --> ln: failed to
+  create symbolic link
+  '/home/pablo/Documents/esp32-projects/can-gauge/build/esp-idf/mbedtls/mbedtls/library/error.c':
+  File exists
+
+Call Stack (most recent call first):
+  /opt/esp/idf/components/mbedtls/mbedtls/library/CMakeLists.txt:191 (link_to_source)
+
+
